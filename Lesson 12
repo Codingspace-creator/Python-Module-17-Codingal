@@ -1,0 +1,5 @@
+print("Welcome to My Lemonade Shop!")
+def TotalCost(price, cups):
+    total = price * cups
+    return total
+print(TotalCost(10, 2))

@@ -1,0 +1,8 @@
+number = 1
+while number > 0:
+    number = float(input("Enter a positive number (or 0/negative to stop): "))
+    
+    if number > 0:
+        print(f"You entered: {number}\n")
+
+print("Negative or zero entered. Program stopped!")
